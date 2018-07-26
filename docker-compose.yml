@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  knowledgeapi:
+    image: ${DOCKER_REGISTRY}knowledgeapi
+    build:
+      context: .\KnowledgeAPI
+      dockerfile: Dockerfile
